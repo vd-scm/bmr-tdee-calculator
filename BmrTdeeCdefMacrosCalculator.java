@@ -90,7 +90,7 @@ class Calculator {
 	        System.out.printf("Your goal caloric intake is: %.2f calories/day%n", goalCalories);
 	        
 	        if (goalCalories < bmr) {
-	            System.out.println("\nWarning: Your goal caloric intake is below your BMR. This might be unsafe or unsustainable.");
+	            System.out.println("\nWarning: Your goal caloric intake is below your BMR. This goal is unsafe or unsustainable.");
 	        }
 
 	        // Macro breakdown (e.g., 40% carbs, 30% protein, 30% fat)
